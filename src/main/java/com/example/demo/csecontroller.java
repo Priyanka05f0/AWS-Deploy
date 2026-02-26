@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class csecontroller {
    @GetMapping("/home")
    public String rocks() {
-	   return "Welcome to Jenkins AWS";
+	   return "Welcome to My Jenkins AWS";
 	   
    }
    
    @GetMapping("/cse")
    public String cse() {
-	   return "Welcome to Jenkins AWS";
+	   return "Welcome to My Jenkins AWS";
 	   
    }
 }
